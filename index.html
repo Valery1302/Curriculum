@@ -2,20 +2,19 @@
 <html lang="es">
 
 <head>
-    <title>Mi Curriculum</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <title>Mi Curriculum</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
 </head>
 
 <body>
     <header>
         <h1>Valeria Gutierrez</h1>
         <p>Ing. Computación | vaniguti@espol.edu.ec | 0960453531</p>
-        <figure>
+        <figure style="margin:0; display:flex; justify-content:center;">
             <a href="Foto profesional.png" target="_blank" rel="noopener">
-                <img src="Foto profesional.png" alt="Foto de perfil de Valeria Gutierrez" width="250" height="250"
-                    style="border-radius:50%; object-fit:cover;" loading="lazy" decoding="async">
+                <img id= "photo" src="Foto profesional.png" alt="Foto de perfil de Valeria Gutierrez">
             </a>
         </figure>
     </header>
@@ -32,7 +31,7 @@
 
     <main>
         <section id="resumen">
-            <h2>Resumen</h2>
+            <h2 class = "subtitle"> Resumen</h2>
             <p> Estudiante de Ingeniería en Computación en la
                 Escuela Superior Politécnica del Litoral (ESPOL),
                 con interés en desarrollo de software, seguridad
@@ -44,13 +43,13 @@
             </p>
         </section>
         <section id="educacion">
-            <h2>Educación</h2>
+            <h2 class = "subtitle"> Educación</h2>
             <p><strong>Bachiller en Ciencias:</strong> Unidad Educativa Fiscal “Tránsito Amaguaña”, Guayaquil.</p>
             <p><strong>Universitaria (may 2021 – presente):</strong> Escuela Superior Politécnica del Litoral (ESPOL),
                 Guayaquil.</p>
         </section>
         <section id="habilidades">
-            <h2>Habilidades</h2>
+            <h2 class = "subtitle">Habilidades</h2>
             <ol>
                 <li><strong>Lenguajes:</strong> Python, Java, JavaScript, PHP, HTML5, CSS, SQL, Go</li>
                 <li><strong>Frameworks/Librerías:</strong> React, Vue.js, Node.js</li>
@@ -62,7 +61,7 @@
             </ol>
         </section>
         <section id="formacion adicional">
-            <h2>Formación adicional</h2>
+            <h2 class = "subtitle">Formación adicional</h2>
             <ul>
                 <li>CCNA2 — Switching, Routing and Wireless Essentials (Cisco)</li>
                 <li>Curso Cisco Java — Programación orientada a objetos</li>
@@ -71,7 +70,7 @@
         </section>
 
         <section id="proyectos" aria-labelledby="proyectos-titulo">
-            <h2 id="proyectos-titulo">Proyectos</h2>
+            <h2 class = "subtitle" id="proyectos-titulo">Proyectos</h2>
             <table aria-describedby="proyectos-titulo">
                 <thead>
                     <tr>
@@ -107,7 +106,7 @@
         </section>
 
         <section id="testimonios" aria-labelledby="testimonios-titulo">
-            <h2 id="testimonios-titulo">Testimonios de colaboración en CNT</h2>
+            <h2 class = "subtitle" id="testimonios-titulo">Testimonios de colaboración en CNT</h2>
 
             <article aria-labelledby="t1-nombre">
                 <header>
@@ -171,7 +170,7 @@
         </section>
 
         <section id="multimedia">
-            <h2>Mapa</h2>
+            <h2 class = "subtitle">Mapa</h2>
             <div class="media">
 
                 <figure>
@@ -185,7 +184,7 @@
                 </figure>
         </section>
         <section id="contacto">
-            <h2>Contactarme</h2>
+            <h2 class = "subtitle" >Contactarme</h2>
 
             <form action="#" method="post">
                 <fieldset>
