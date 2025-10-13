@@ -1,0 +1,77 @@
+* {
+    font-family: 'BBH Sans Hegarty', Tahoma, Geneva, Verdana, sans-serif;
+}
+header p{
+text-align: center;
+}
+h1 { 
+color: rgb(243, 80, 175); 
+font-size: 3em; 
+text-align: center; 
+font-weight: bold;
+}
+main p { 
+border: 1px solid rgb(170, 162, 162); 
+padding: 5px; 
+} 
+.destacado { 
+font-weight: bold; 
+color: orange; 
+} 
+footer p {
+text-align: right;
+font-style: italic;
+}
+#photo{
+border-radius:50%; object-fit:cover;
+width: 250px;;
+height:250px;
+}
+.subtitle {
+color: rgba(52, 211, 216, 0.89);
+text-transform: uppercase;
+}
+nav > ul {
+list-style: none;
+display: flex;
+justify-content: space-evenly;
+flex-direction: row;
+align-items: center;
+gap: 1rem;
+}
+section > form {
+display: grid;
+grid-template-columns: 1fr;
+row-gap: 1rem;
+column-gap: 1rem;
+}
+
+section#testimonios {
+display: flex;
+flex-wrap: wrap; 
+gap: 1rem;
+width: 100%;
+}
+#testimonios > h2 {
+
+flex: 0 0 100%;
+width: 100%;
+}
+
+#testimonios > article {
+flex: 1 1 calc(33.333% - 1rem);
+}
+
+    
+
+
+section {
+border: 0.2pt solid #cedddd;
+margin: 4px 2px 8px 2px;
+padding: 1.5% 0.8%;
+margin-bottom: 1.2rem;
+
+}
+
+
+
